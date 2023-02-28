@@ -4,7 +4,7 @@ import org.apache.spark.rdd.RDD.rddToPairRDDFunctions
 
 object Pactical10parallie extends App  {
   
-  val sc = new SparkContext("local[*]","rdd")
+  val sc = new SparkContext("local[*]","parallize")
   
   //below is local collection 
   val myList = List("WARN: Tuesday 4 September 0405",
